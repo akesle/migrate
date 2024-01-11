@@ -2,6 +2,8 @@ module github.com/golang-migrate/migrate/v4
 
 go 1.18
 
+replace github.com/ClickHouse/clickhouse-go v1.4.3 => github.com/akesle/clickhouse-go v1.4.4-0.20240111222620-b1147ebcfd9c
+
 require (
 	cloud.google.com/go/spanner v1.51.0
 	cloud.google.com/go/storage v1.30.1
